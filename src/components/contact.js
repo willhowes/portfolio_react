@@ -14,7 +14,7 @@ class Contact extends Component {
                             style={{height: '250px'}}
                         />
                         <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the.
+                            Please do get in touch with me by phone, email or on social media. 
                         </p>
                     </Cell>
                     <Cell col={6}>
@@ -23,15 +23,15 @@ class Contact extends Component {
                             <div className="contact-list">
                                 <List>
                                     <ListItem>
-                                        <ListItemContent style={{fontSize: '18px', fontFamily: 'Nanum Gothic, sans-serif' }}>
-                                        <i class="fas fa-phone-square"/>                                      
+                                        <ListItemContent style={{fontSize: '16px', fontFamily: 'Nanum Gothic, sans-serif' }}>
+                                        <i className="fas fa-phone-square"/>                                      
                                         07989 340 804
                                         </ListItemContent>
                                     </ListItem>
 
                                     <ListItem>
-                                        <ListItemContent style={{fontSize: '18px', fontFamily: 'Nanum Gothic, sans-serif' }}>
-                                            <i class="fas fa-envelope"/>                                      
+                                        <ListItemContent style={{fontSize: '16px', fontFamily: 'Nanum Gothic, sans-serif' }}>
+                                            <i className="fas fa-envelope"/>                                      
                                             williameldenhowes@gmail.com
                                         </ListItemContent>                                    
                                     </ListItem>
