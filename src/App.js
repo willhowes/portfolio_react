@@ -5,10 +5,11 @@ import Main from './components/main';
 import { Link } from 'react-router-dom';
 
 function App() {
+	
 	return (
 	<div className="demo-big-content">
 			<Layout>
-					<Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'black'}} to='/'>Will Howes - Portfolio</Link>} scroll>
+					<Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to='/'>Will Howes - Portfolio</Link>} scroll>
 							<Navigation>
 									{/* <Link to="/resume">Resume</Link> */}
 									<a href="https://willhowes.herokuapp.com" target="_blank" rel="noopener noreferrer" >CV</a>

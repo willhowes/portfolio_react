@@ -1,13 +1,14 @@
 .header-color {
-  background: #ADA996;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .landing-grid {
-  background: #ADA996;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 4rem;
@@ -22,8 +23,8 @@
 }
 
 .banner-text {
-  background: rgb(232, 231, 231);  /* fallback for old browsers */
-  opacity: .7;
+  background: #0F2027);
+  opacity: .8;
   width: 75%;
   margin: auto;
   border-radius: 10px;
@@ -35,17 +36,25 @@
 .banner-text h1 {
   font-size: 66px;
   font-family: 'Nanum Gothic', sans-serif;
+  color: white;
+}
+
+.banner-text h2 {
+  font-size: 40px;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: white;
 }
 
 .banner-text hr {
-  border-top: 5px dotted black;
+  border-top: 5px fine white;
   width: 50%;
   margin: auto;
 }
 
 .banner-text p {
-  font-size: 20px;
-  padding: 1em
+  font-size: 25px;
+  padding: 1em;
+  color: white;
 }
 
 .social-links {
@@ -59,7 +68,9 @@
 .social-links i {
   color: black;
   font-size: 4em;
-  padding: 8px
+  padding: 8px;
+  color: white;
+
 }
 
 .projects-grid {
