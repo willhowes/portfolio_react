@@ -6,21 +6,17 @@ class Contact extends Component {
         return(
             <div className="contact-body">
                 <Grid className="contact-grid">
-                    <Cell col={6}>
-                        <h2>Will Howes</h2>
-                        <img
+                    <Cell col={8}>
+                        {/* <img
                             src="https://icon-library.net/images/default-profile-icon/default-profile-icon-16.jpg"
                             alt="Avatar"
                             style={{height: '250px'}}
-                        />
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
-                            Please do get in touch with me by phone, email or on social media. 
-                        </p>
-                    </Cell>
-                    <Cell col={6}>
+                        /> */}
+
                         <h2>Contact Me</h2>
-                        <hr/>
-                            <div className="contact-list">
+                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
+                            Please get in touch with me by phone, email or on social media. 
+                        </p>                            <div className="contact-list">
                                 <List>
                                     <ListItem>
                                         <ListItemContent style={{fontSize: '16px', fontFamily: 'Nanum Gothic, sans-serif' }}>
@@ -31,14 +27,24 @@ class Contact extends Component {
 
                                     <ListItem>
                                         <ListItemContent style={{fontSize: '16px', fontFamily: 'Nanum Gothic, sans-serif' }}>
-                                            <i className="fas fa-envelope"/>                                      
-                                            williameldenhowes@gmail.com
+                                            <a href="mailto:williameldenhowes@gmail.com" target="_blank" rel="noopener noreferrer" style={{color: 'black'}} >
+                                            <i className="fas fa-envelope"/>williameldenhowes@gmail.com</a>                         
+                                            
                                         </ListItemContent>                                    
                                     </ListItem>
+
+                                    <ListItem>
+                                        <ListItemContent style={{fontSize: '16px', fontFamily: 'Nanum Gothic, sans-serif', color: 'black' }}>
+                                        <a href="https://www.linkedin.com/in/will-howes-12a9b529/" target="_blank" rel="noopener noreferrer" style={{color: 'black'}} >
+                                    <i className="fab fa-linkedin" aria-hidden="true"/>LinkedIn Profile</a>                                                                              </ListItemContent>                                    
+                                    </ListItem>
+
+
+                                                                   
+
                                 </List>
 
                             </div>
-
                     </Cell>
                 </Grid>
             </div>

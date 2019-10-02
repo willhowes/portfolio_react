@@ -7,13 +7,14 @@ class LandingPage extends Component {
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img 
+                        {/* <img 
                             src="https://icon-library.net/images/default-profile-icon/default-profile-icon-16.jpg"
                             alt="avatar"
                             className="avatar-img"
-                        />
+                        /> */}
                         <div className="banner-text">
-                            <h1>Software Developer</h1>
+                            <h1>Will Howes</h1>
+                            <h2>Software Developer</h2>
                             <hr/>
                             <p>Ruby | Rails | Javascript</p>
 
