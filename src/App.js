@@ -5,11 +5,11 @@ import Main from './components/main';
 import { Link } from 'react-router-dom';
 
 function App() {
-	
+
 	return (
 	<div className="demo-big-content">
 			<Layout>
-					<Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to='/'>Will Howes - Portfolio</Link>} scroll>
+					<Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to='/'><i className="fa fa-home" aria-hidden="true" /></Link>} scroll>
 							<Navigation>
 									{/* <Link to="/resume">Resume</Link> */}
 									<a href="https://willhowes.herokuapp.com" target="_blank" rel="noopener noreferrer" >CV</a>
@@ -18,9 +18,8 @@ function App() {
 									<Link to="/contact">Contact</Link>
 							</Navigation>
 					</Header>
-					<Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to='/'>Will Howes - Portfolio</Link>}>
+					<Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to='/'><i className="fa fa-home" aria-hidden="true" /></Link>}>
 							<Navigation>
-									<Link to="/">Home</Link>
 									<a href="https://willhowes.herokuapp.com" target="_blank" rel="noopener noreferrer" >CV</a>
 									<Link to="/aboutMe" onClick={() => this.hideToggle()}>About Me</Link>
 									<Link to="/projects">Projects</Link>
@@ -32,7 +31,7 @@ function App() {
 							<Main></Main>
 					</Content>
 			</Layout>
-	</div>  
+	</div>
 );
 }
 
